@@ -1,0 +1,164 @@
+.signup_form{
+	font-size:16px;
+	font-family:system-ui;
+	background:-webkit-radial-gradient(top left,#0E185F ,#6A5495);
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+
+.signup_body{
+	background:#008891
+}
+
+.signup_body{
+	background-color: #008891;
+}
+
+.signup_form form{
+	width:100%;
+
+}
+
+ .signup_form h2{
+	text-align:Center;
+	color:#270082;
+
+}
+.signup_form form{
+	width:350px;
+	padding: 15px 40px 40px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	background-color:white;
+	margin:4% auto;
+}
+
+.box label{
+	display: block;
+	margin-bottom:5px;
+}
+
+.box label i{
+	color:#999;
+	font-size:80%;
+}
+
+.box input,select{
+	border:1px solid #ccc;
+	padding:10px;
+	display:block;
+	width:100%;
+	box-sizing:border-box;
+	border-radius:2px;
+	background-color:#a9bae64a;
+}
+
+.box{
+	padding-top:20PX;
+	padding-bottom:10px;
+}
+
+.form-inline{
+	border:1px solid #ccc;
+	padding: 8px 10px 4px;
+	border-radius:2px;
+}
+
+.form-inline label, .form-inline input{
+	display:inline-block;
+	width:auto;
+	padding-right:15px;
+}
+
+.error{
+	color:red;
+	font-size:90%;
+}
+
+.box input[type="text"]{
+	outline:none;
+}
+
+.result_btn input[type="submit"]{
+	font-size:110%;
+	font-weight:200;
+	background-color:#270082;
+	border-color:#efbe58;
+	box-shadow: 0 3px 0 #bd432e;
+	color:white;
+	margin-top:10px;
+	cursor:pointer;
+	width:100px;
+	margin-left:690px;
+}
+
+.result_btn input[type="submit"]:hover{
+	background:#0E185F;
+	border-color:#bd432e;
+}
+
+
+input[type="submit"]{
+	font-size:110%;
+	font-weight:200;
+	background-color:#270082;
+	border-color:#efbe58;
+	box-shadow: 0 3px 0 #bd432e;
+	color:white;
+	margin-top:10px;
+	cursor:pointer;
+
+}
+/*buttons */
+input[type="submit"]:hover{
+	background:#0E185F;
+	border-color:#bd432e;
+}
+
+
+.result_btn input[type="button"]{
+	font-size:110%;
+	font-weight:200;
+	background-color:#270082;
+	border-color:#efbe58;
+	box-shadow: 0 3px 0 #bd432e;
+	color:white;
+	margin-top:10px;
+	cursor:pointer;
+	width:100px;
+	margin-left:690px;
+}
+
+.result_btn input[type="button"]:hover{
+	background:#0E185F;
+	border-color:#bd432e;
+}
+
+
+
+.input-1{
+	background-image:url(check);
+	background-repeat:no-repeat;
+	background-position:right 10px center;
+	border:1px solid #01cc40;
+}
+
+.input-2{
+	background-image:url(cancel);
+	background-repeat:no-repeat;
+	background-position:right 10px center;
+	border:1px solid red;
+}
+
+.input-3{
+	border:1px solid #01cc40;
+}
+
+.input-4{
+	border:1px solid #red;
+}
+
+select{
+	outline:none!important;
+}

@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing:border-box;
+}
+
+/* homepage gallery */
+.homegall{
+	position: absolute;
+	top: 1900px;
+	left: 50px;
+	font-size:25px;
+}
+.homegall h2{
+	font-size:50px;
+	color:orange;
+}
+.gallbtn{
+	position: absolute;
+	top: 2150px;
+	left: 500px;
+	font-size:25px;
+	border-radius:10px;
+	background-color: #0E185F;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;	
+}
+.gallbtn a{
+	color:white;
+	text-decoration:none;
+}
+.gallbtn:hover{
+  background-color: #5D8BF4;
+  color: white;
+}
+/* homepage packages */
+
+.para{
+	position: absolute;
+	top: 2580px;
+	left: 50px;
+	font-size:25px;
+}
+.para h2{
+	font-size:50px;
+	color:orange;
+}
+
+.paravideo{
+	position: absolute;
+	top: 2540px;
+	left: 1200px;
+	font-size:25px;
+	
+}
+.parabtn{
+	position: absolute;
+	top: 2820px;
+	left: 500px;
+	font-size:25px;
+	border-radius:10px;
+	background-color: #0E185F;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;	
+}
+.parabtn a{
+	color:white;
+	text-decoration:none;
+}
+.parabtn:hover{
+  background-color: #5D8BF4;
+  color: white;
+}
+
+
+
+/* timer and quize */
+
+.timer{
+  text-align: center;
+  background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+  height:600px;
+  margin-top:20px;
+}
+
+h1{
+	padding-top:90px;
+	color: black;
+	font-weight: 100;
+	font-size: 40px;
+	margin: 40px 0px 20px;
+}
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 50px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #00BF96;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.quiz_button{
+	background-color:#0E185F;
+  font-family: sans-serif;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size:30px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+}
+
+.quiz_button:hover{
+  background-color: #5D8BF4;
+  color: white;
+}
+
+
+/* home page */
+
+.banner{
+	width:100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+	position: relative;
+	padding:0 5%;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	
+	
+}
+nav { 
+	
+	position:absolute;
+	top:-8%;
+	
+	padding:10px 2%;
+	display:flex;
+	align-items:center;
+	justify-content: safe;
+	
+}
+
+nav .logo{
+	margin-top:0%;
+	width:150px;
+	margin-right:350px;
+	margin-left:-50%;
+	
+}
+.inline_nav{
+	display:inline-block;
+	margin-top:5%;
+}
+
+.home_nav2 nav ul li   {
+	
+	list-style: none;
+	display: inline-block;
+	
+	
+}
+
+.home_nav2 nav ul li a   {
+	text-decoration:none;
+	color:#F5F5F5;
+	font-size:18px;
+	padding:10px;
+	background:transparent;
+	
+}
+
+
+.anchor_home{
+	background-color:transparent;
+	
+}
+
+.content{
+	text-align: center;
+}
+
+
+
+.btn1 {
+	width:250px;
+	height:80px;
+	border:none;
+	color:white;
+	border-radius:12px;	
+	transition: ease-out 0.4s;
+	border:3px solid #fff;
+	position:relative;
+	font-size: 2rem;
+	outline:none;
+	z-index:1;
+	background:none;
+	
+	text-transform:uppercase;
+	padding:12px 20px;
+	min-width:200px;
+	margin:10px;
+	cursor:pointer;
+	transition: color 0.3s linear;
+
+}
+
+.btn1:hover{
+	color:#fff;
+	cursor: pointer;
+		
+	
+}
+
+.btn1:before{
+	transition:0.4s all ease;
+	position:absolute;
+	top:0;
+	left:50%;
+	right:50%;
+	bottom:0;
+	opacity:0;
+	content:"";
+	background-color:#0E185F;
+	border-radius:12px;
+}
+
+.btn1:hover:before{
+	transition:0.4 all ease;
+	left:0;
+	right:0;
+	opacity:1;
+	z-index:-1;
+}
+
+.back-video{
+	position:absolute;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	margin-right:0;
+	
+}
+
+@media(min-aspect-ratio:16/9){
+	.back-video{
+		width:100%;
+		height:auto;
+	}
+}
+
+
+@media(max-aspect-ratio:16/9){
+	.back-video{
+		width:auto;
+		height:100%;
+	}
+}
+
+.lasssana_image{
+	
+	width:800px;
+	margin-right:0%;
+	
+
+	
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#main_page{
+	background-color:EFFFFD;
+}
+

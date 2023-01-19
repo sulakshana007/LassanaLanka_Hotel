@@ -1,0 +1,32 @@
+#bg{
+	background-image:url('Photos/bgimage.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+.svgContainer{
+	position:relative;
+	height:100%;
+	width:100%;
+}	
+
+line{
+	stroke:#630A10;
+	stroke-width:3;
+}
+rect{
+	fill:#00587A;
+}
+
+.sitemaptext{
+	fill:#E7E7DE;
+	font-size:23px;
+	
+}
+.sitemaptext:hover{
+	color:#E7E7DE;
+}
+
+.button:hover rect{
+	fill:#0F3057;
+}

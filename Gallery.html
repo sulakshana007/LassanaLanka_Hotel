@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="CSS/Gallerycss.css" type="text/css">
+		<link rel="stylesheet" href="CSS/footer.css">
+		<link rel="icon" type="image/jpg" href="Photos\logo.png">
+		<title>Gallery</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<!-- Navigation bar and the cover page -->
+		<img src="Photos\gallery.jpg" class="header" >
+		<div class="gallery_qu">Gallery</div>
+		<div class="gallery_qu2">| EXPLORE THE BEAUTY OF SRI LANKA |</div>
+		<a href="index.html">
+		<img src="images\logo_dark.png" class="logo_nav" alt="lassana lanka logo"></a>
+
+		<div class="nav">
+			<ul>
+				<li><a href="index.html #main_page"> Home</a></li>
+				<li><a href="buyPage.html"> Packages</a></li>
+				<li><a href="Gallery.html"> Gallery</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="signup.html">Login</a></li>
+				<li><a href="About us.html"> About Us</a></li>
+			</ul>
+		</div>
+
+		<!-- Change the background colour -->
+		<div id="formcenter">
+			<form>
+				<label for="theme" style="font-family: 'Lora', serif; ">Select Theme</label>
+				<select onchange="bgColorFunction(this)" id="theme">
+					<option value="#EEEEEE"><button type="button" onclick="myFunction()">Default</button></option>
+					<option value="lightblue"><button type="button" onclick="myFunction()">Light Blue</button></option>
+					<option value="LightGray"><button type="button" onclick="myFunction()">Light Gray</button></option>
+					<option value="#FAEBD7"><button type="button" onclick="myFunction()">Antique White</button></option>
+					<option value="LightGreen"><button type="button" onclick="myFunction()">Light Green</button></option>
+				</select>
+
+			<!-- Change the text colour -->
+
+				<label for="textcolours" style="font-family: 'Lora', serif;">Select Text Colour</label>
+				<select onchange="textColorFunction(this)" id="textcolours">
+					<option value="black"><button type="button" onclick="textColorFunction()">Black</button></option>
+					<option value="#8882E2"><button type="button" onclick="textColorFunction()">Blue</button></option>
+					<option value="#36CF41"><button type="button" onclick="textColorFunction()">Green</button></option>
+					<option value="#D06851"><button type="button" onclick="textColorFunction()">Red</button></option>
+				</select>
+
+			</form>
+		</div></br></br>
+		<!-- thumbnail images -->
+		<div class="hover images" >
+			<div class="images_small">
+				<img id="trinco" src="Photos\Trinco(1).jpg" style="width:225px; height:150px; border-radius:13px;" alt="Trinco" onmouseover="mouserOver1()" />
+			</div>
+
+			<div class="images_small">
+				<img id="ella" src="Photos\Ella2.jpg" style="width:225px; height:150px; border-radius:13px;" alt="Ella" onmouseover="mouserOver2()"/>
+			</div>
+			<div class="images_small">
+				<img id="sigiriya" src="Photos\Sigiriyanew.jpg" style="width:225px; height:150px; border-radius:13px;" alt="Sigiriya" onmouseover="mouserOver3()"/>
+			</div>
+			<div class="images_small">
+				<img id="galle" src="Photos\Galle1.jpg" style="width:225px; height:150px; border-radius:13px;" alt="Galle" onmouseover="mouserOver4()"/>
+			</div>
+			<div class="images_small">
+				<img id="yala" src="Photos\yala1.jpg" style="width:225px; height:150px; border-radius:13px;" alt="Yala National Park" onmouseover="mouserOver5()"/>
+			</div>
+			<div class="images_small">
+				<img id="meemure" src="Photos\meemure.jpg" style="width:225px; height:150px; border-radius:13px;" alt="Meemure" onmouseover="mouserOver6()"/>
+			</div>
+		</div><br><br>
+
+		<!-- larger images with description -->
+		<div id="large">
+			<div id="largeImageDiv">
+			  <img class="largeImage" src ="Photos\konesh.jpg" alt="koneshwaram" id="largeImage1">
+			  <img class="largeImage" src="Photos\Pigeon-Island-header.jpg" id="largeImage2">
+			  <img class="largeImage" src="Photos\Trincomalee_War_Cemetery.jpg" id="largeImage3">
+			</div>
+			<div id="detailsDiv" >
+			  <p id="details" style="font-family: 'EB Garamond', serif;">"<u><b>Koneswaram Temple</u> - </b>Thirukoneswaram, or the Holy Koneswaram Temple, is a Hindu temple in Thirukonamalai (Trincomalee) on the east coast of Sri Lanka. The temple lies on a high rocky promontory surrounded on three sides by the sea. It bears a history of over three millennia with its records indicating its roots in 1580 BC. This, still beautiful, historical monument is what remains of what once was a sprawling temple city equal to the ancient city of Madurai, India. You can see a lot of shrines and images in there.<br><br><u><b>Pigeon Island</u> - </b>Floating in the great blue 1km offshore, Pigeon Island, with its powdery white sands and glittering coral gardens, tantalises with possibilities. A nesting area for rock pigeons, the island is beautiful enough, with rock pools and paths running through thickets, but it’s the underwater landscape that’s the real star. The reef here is shallow, making snorkelling almost as satisfying as diving, and it’s home to dozens of corals, hundreds of reef fish (including blacktip reef sharks) and turtles.<br><br><u><b>Trincomalee War Cemetery</u> - </b>Trincomalee British War Cemetery is a British military cemetery in Trincomalee, Sri Lanka, for soldiers of the British Empire who were killed or died during World War II. The cemetery also has graves of Dutch, French, Italian and other allied forces.It is one of the six Commonwealth war cemeteries in Sri Lanka, and maintained by Sri Lankan Ministry of Defense on behalf of the Commonwealth War Graves Commission."</p>
+			</div>
+		</div>
+		<button id='button'   onclick="window.location.href='#formcenter';" >Back To Top</button><br><br>
+
+
+
+		<div >
+
+				<footer>
+				<div class="row">
+
+
+					<div class='col'>
+						<img src="images/logo.png" class="foot_logo" alt="logo">
+						<p>We are the leading tourism organizing company in Sri Lanka.
+						You can have a luxurious and affordable tour packages from Lassana Lanka.</p>
+					</div>
+
+
+					<div class='col'>
+						<h3>Office <div class="underline"><span></span></div></h3>
+						<p>35/1,</p>
+						<p>Edirigoda Rd,</p>
+						<p> Nugegoda, </p>
+						<p>Sri Lanka</p>
+						<p class="email-id">LassanaLanka@gmail.com</P>
+						<h4>+94 1132 47392 </h4>
+					</div>
+
+
+					<div class='col'>
+						<h3>Links <div class="underline"><span></span></div></h3>
+						<ul>
+
+								<li class="list_footer"><a href="#banner">Home</a></li>
+								<li class="list_footer"><a href="buyPage.html">Packages</a></li>
+								<li class="list_footer"><a href="Gallery.html">Gallery</a></li>
+								<li class="list_footer"><a href="contact.html">Contact Us</a></li>
+								<li class="list_footer"><a href="signup.html">Login</a></li>
+								<li class="list_footer"><a href="About us.html">About Us</a></li>
+								<li class="list_footer"><a href="Sitemap.html" target="_blank">SIte Map</a></li>
+								<li class="list_footer"><a href="additional.html" target="_blank" >Content Page</a></li>
+
+						</ul>
+					</div>
+
+
+					<div class='col'>
+						<h3>NewsLetter <div class="underline"><span></span></div></h3>
+						<form>
+
+								<img src="images/email.png" class="email-img ">
+								<input type="email" placeholder="Enter your email id" required>
+								<button type="submit"><img src="images/next.png" class="email-img arrow"></button>
+						</form>
+
+						<div class="social-icons">
+							<img src="images/facebook.png" class="social_img ">
+							<img src="images/instagram.png" class="social_img ">
+							<img src="images/linkedin.png" class="social_img ">
+							<img src="images/twitter.png" class="social_img">
+						</div>
+
+
+					</div>
+
+
+
+					</div>
+					<hr>
+					<p class="copyright">Lassana Lanka &copy; - All Rights Reserved</p>
+					<p class="copyright">Page Editor:<a href="student4.html" style="color:white;">Tharusha Perera</a></p>
+				</footer>
+
+			</div>
+
+
+
+
+		<script src="JavaScript/galleryjs.js"> </script>
+	</body>
+
+
+
+
+</html>
